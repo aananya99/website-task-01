@@ -1,11 +1,11 @@
-/* font types */
+/* font type-01 */
 .raleway-font {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   /* font-weight: <weight>; */
   font-style: normal;
 }
-
+/* font type-02 */
 .inter-font_new {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -121,7 +121,7 @@ nav{
     font-weight: normal;
     color: rgba(0, 0, 0, 0.5);
 }
-/* reviews */
+/* reviews section */
 .review-title{
     text-align: center;
     font-size: 42px;
@@ -152,7 +152,7 @@ nav{
     color: #757575;
     margin: 2px;
 }
-/* focus  */
+/* focus  section*/
 .focus-part{
     justify-items: center;
     padding: 70px 150px;
@@ -174,7 +174,7 @@ nav{
    border-radius: 48px;
    justify-content: center;
 }
-/* newsletter */
+/* form section*/
 .newsletter{
     display: flex;
     align-items: center;
@@ -202,4 +202,31 @@ form input[type=email],input[type="text"],textarea{
 .label-design{
     font-size: 18px;
     font-weight: 500px;
+}
+/* footer section */
+footer{
+    text-align: center;
+    justify-items:center;
+    margin: 104px 155px;
+    background-color: white;
+}
+footer h2{
+    font-size: 100px;
+    font-weight: 900px;
+    color:rgba(78, 71, 255, 1);
+    margin: 0px;
+}
+footer p{
+    color: #8987A1;
+    margin-top: 8px;
+}
+footer ul{
+    display: flex;
+}
+footer ul li{
+    list-style: none;
+    margin-top: 20px;
+    margin-right:48px;
+    text-align: center;
+    color: #8987A1;
 }
