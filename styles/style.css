@@ -162,6 +162,11 @@ nav{
     background-color: white;
 
 }
+.focus-part h2{
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0px;
+}
 
 .focus-part img{
     margin-top: 20px;
@@ -174,8 +179,10 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 93px 150px 14px 150px;
-    align-items: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    margin: 93px 150px;
+
 }
 .news-title{
     font-size: 60px;
