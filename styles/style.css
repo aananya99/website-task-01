@@ -46,7 +46,7 @@ nav{
     color: rgba(255, 255, 255, 1);
     background-color: rgba(78, 71, 255, 1);
     padding: 10px 20px;
-    font-size: 20px;
+    font-size: 16px;
 }
 .head-content{
     border: 158px 276.5px 37px;
@@ -73,7 +73,6 @@ nav{
 .action-column{
     text-align: left;
     /* padding: 23px; */
-    padd
 }
 .action-title{
     font-size:42px;
@@ -188,8 +187,38 @@ nav{
     font-size: 60px;
     font-weight: bold;
 }
-form input[type=email],input[type="text"],textarea{
+form input[type=email],input[type="text"]{
     height: 32px;
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    margin-bottom:19px;
+    background-color: white;
+}
+/* form input [type="button"]{ 
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    margin-bottom: 19px;
+    font-size: 16px;
+    padding: 10PX;
+/* } */
+
+form input[type="button"] {
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-bottom: 19px;
+    box-sizing: border-box;
+    color: white;
+}
+form textarea{
     width: 100%;
     display: block;
     border-radius: 10px;
@@ -198,10 +227,11 @@ form input[type=email],input[type="text"],textarea{
     background-color: white;
     font-size: 20px;
     margin-bottom:19px;
+    box-sizing: border-box;
 }
 .label-design{
     font-size: 18px;
-    font-weight: 500px;
+    font-weight: 500;
 }
 /* footer section */
 footer{
@@ -223,10 +253,14 @@ footer p{
 footer ul{
     display: flex;
 }
-footer ul li{
+footer li{
     list-style: none;
+ 
+}
+footer li a{
     margin-top: 20px;
     margin-right:48px;
     text-align: center;
     color: #8987A1;
+    text-decoration: none;
 }
