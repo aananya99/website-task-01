@@ -16,6 +16,10 @@ main{
     max-width: 1440px;
     margin: 0 auto;
 }
+.bg-color{
+    background-color:#F5F8FF;
+
+}
 /* Header section */
 .head-bg{
 
@@ -61,11 +65,15 @@ nav{
     justify-content: space-between;
     align-items: center;
     gap: 300px;
-    padding: 68px 159px 116px 141px;
+    margin-top: 68px;
+    margin-right: 176px;
+    margin-left: 141px;
+    /* padding: 68px 159px 116px 141px; */
 }
 .action-column{
     text-align: left;
-    padding: 23px;
+    /* padding: 23px; */
+    padd
 }
 .action-title{
     font-size:42px;
@@ -86,9 +94,11 @@ nav{
 }
 /* user content section */
 .user-content{
+    margin: 116px 159px 147px 141px;
     text-align: center;
     padding: 50px 142px;
-    background-color:#F5F8FF;
+    background-color: #D6DDED;
+
 }
 .user-title{
     font-size: 38px;
@@ -110,4 +120,79 @@ nav{
     font-size: 20px;
     font-weight: normal;
     color: rgba(0, 0, 0, 0.5);
+}
+/* reviews */
+.review-title{
+    text-align: center;
+    font-size: 42px;
+    font-weight: bold;
+}
+.review-all{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.review-card{
+    border: 1px solid white;
+    border-radius: 14px;
+    /* gap: 24px; */
+   
+}
+.review-profile{
+    margin-top: 24px;
+    display: flex;
+    justify-items: center;  
+}
+.review-profile img{
+  height: 40px;
+  width: 40px;
+  margin-right:6px;
+}
+.review-profile h4,p{
+    color: #757575;
+    margin: 2px;
+}
+/* focus  */
+.focus-part{
+    justify-items: center;
+    padding: 70px 150px;
+    margin:127px 150px ;
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: white;
+
+}
+
+.focus-part img{
+    margin-top: 20px;
+    margin-bottom: 70px;
+   border-radius: 48px;
+   justify-content: center;
+}
+/* newsletter */
+.newsletter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 93px 150px 14px 150px;
+    align-items: center;
+}
+.news-title{
+    font-size: 60px;
+    font-weight: bold;
+}
+form input[type=email],input[type="text"],textarea{
+    height: 32px;
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 20px;
+    background-color: white;
+    font-size: 20px;
+    margin-bottom:19px;
+}
+.label-design{
+    font-size: 18px;
+    font-weight: 500px;
 }
