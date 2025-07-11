@@ -1,0 +1,113 @@
+/* font types */
+.raleway-font {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
+}
+
+.inter-font_new {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
+}
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+/* Header section */
+.head-bg{
+
+    background-image: url('../styles/Hero-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin:0 150px ;
+    padding: 50px 0 50px 0;
+    align-items: center;
+    
+}
+.nav-logo{
+    font-size: 34px;
+    font-weight: 900px;
+    color:rgba(78, 71, 255, 1);
+}
+.common-btn{
+    border-radius: 10px;
+    border: none;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(78, 71, 255, 1);
+    padding: 10px 20px;
+    font-size: 20px;
+}
+.head-content{
+    border: 158px 276.5px 37px;
+    font-size: 65px;
+    font-weight: bold;
+    color: rgba(37, 36, 50, 1);
+    text-align: center;
+    justify-content:center ;
+    align-items: center;
+    padding: 300px 267.5px 285px;
+
+}
+/* Action section */
+.action-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 300px;
+    padding: 68px 159px 116px 141px;
+}
+.action-column{
+    text-align: left;
+    padding: 23px;
+}
+.action-title{
+    font-size:42px;
+    font-weight: bold;
+    color:rgba(37, 36, 50, 1);
+    margin-bottom: 23px;
+}
+.action-subtitle{
+    font-size: 24px;
+    font-weight: normal;
+    color: rgba(37, 36, 50, 0.5);
+    margin-bottom: 23px;
+}
+.action-img{
+     border-radius: 48px;
+     width: 403px;
+     height: 328px;
+}
+/* user content section */
+.user-content{
+    text-align: center;
+    padding: 50px 142px;
+    background-color:#F5F8FF;
+}
+.user-title{
+    font-size: 38px;
+    font-weight: bold;
+    color: rgba(37, 36, 50, 1);
+}
+.product{
+    display: flex;
+    gap: 158px;
+    justify-content: center;
+}
+.product-content{
+    font-size: 80px;
+    font-weight: bold;
+    color: rgba(78, 71, 255, 1);
+    margin-bottom:0px;
+}
+.product-detail{
+    font-size: 20px;
+    font-weight: normal;
+    color: rgba(0, 0, 0, 0.5);
+}
